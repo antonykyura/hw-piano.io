@@ -1,0 +1,28 @@
+.piano{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:black;
+    height: 100vh;
+    
+}
+.piano div{
+    background: radial-gradient(rgb(230, 227, 227),rgb(173, 167, 167),rgb(77, 76, 76));
+    color: black;
+    border:1px solid black;
+    border-radius: 10px;
+    width: 50px;
+    height: 200px;
+    margin-right: 20px;
+    display:flex; 
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.pianokey{
+    transform: scale(1.1);
+    background-color: red;
+}
+.keypress{
+    transform: scale(1);
+}
